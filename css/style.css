@@ -172,3 +172,15 @@ body {
 .footer-section p {
   color: white;
 }
+@media screen and (max-width: 1280px) {
+  body {
+    font-size: 90%;
+  }
+@media screen and (max-width: 800px) {
+    body {
+      font-size: 75%;
+  }
+  @media screen and (max-width: 500px) {
+    body {
+      font-size: 40%;
+  }
