@@ -48,7 +48,7 @@ session_start();
     
       <div class="cartCard">
       <h3>2020 Club Car - $5995</h3>
-       <img  class="cartImage" src="img/2020ClubCar" alt="2020 Club Car">
+       <img  class="cartImage" src="img/2020ClubCar.jpg" alt="2020 Club Car">
       </div>
      
       <div class="cartCard">
