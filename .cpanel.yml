@@ -4,6 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/sbballro/public_html/sbgolfcartrentals.com
     - /bin/cp contact.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
+    - /bin/cp forsale.php $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp rates.php $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH

@@ -27,7 +27,7 @@ session_start();
 
         <div class="container">
 
-            <h1>Requirements:</h1>
+            <h1>Rental Requirements:</h1>
       
             <h3>Copy of a Valid Driver's License</h3>
             <h3>Month lease minimum</h3>
