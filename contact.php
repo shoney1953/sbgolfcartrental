@@ -29,7 +29,7 @@ session_start();
 
             <h1>Contact Brian Hand</h1>
             <h2>Phone: 512 751-7280</h2><br>
-            <br><a href="mailto:brianhand1@outlook.com?subject=Golf Cart Rental Information">
+            <br><a href="mailto:brianhand1@hotmail.com?subject=Golf Cart Rental Information">
                        Click to Email Brian</a>
             <h1>Contact Ron Bouchard</h1>
             <h2>Phone: 503 949-4955</h2><br>

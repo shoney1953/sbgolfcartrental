@@ -32,7 +32,7 @@ session_start();
     <div class="contactCard">
             <h4>Contact Brian Hand</h4>
             <h4>Phone: 512 751-7280</h4>
-            <a href="mailto:brianhand1@outlook.com?subject=Golf Cart Sales Information">
+            <a href="mailto:brianhand1@hotmail.com?subject=Golf Cart Sales Information">
                        Click to Email Brian</a>
     </div>
     <div class="contactCard">
