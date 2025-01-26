@@ -47,16 +47,16 @@ session_start();
        <!-- <div class="form-grid4">  -->
     
       <div class="cartCard">
-      <h3>2020 Club Car - $5995</h3>
+      <h3>2020 Club Car - $4995</h3>
        <img  class="cartImage" src="img/2020ClubCar.jpg" alt="2020 Club Car">
       </div>
      
       <div class="cartCard">
-      <h3>2019 Club Car - $5995</h3>
+      <h3>2019 Club Car - $4995</h3>
        <img  class="cartImage" src="img/2019ClubCar.jpg" alt="2019 Club Car">
       </div>
       <div class="cartCard">
-      <h3>2012 Yamaha Gas Powered - $4995</h3>
+      <h3>2012 Yamaha Gas Powered - $4500</h3>
        <img  class="cartImage" src="img/2012Yamaha.jpg" alt="2012 Yamaha">
       </div>
     </div>
