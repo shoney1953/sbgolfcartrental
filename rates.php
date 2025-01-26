@@ -36,9 +36,8 @@ session_start();
             <h1>Rates:</h1>
        
             <h3>$350 per Month</h3>
-            <h2><a  
-            href='img/SaddleBrooke Golf Cart Rental Contract.pdf' target='_blank'>
-            Click for Sample Contract</a></h2>
+            <h2><a href='img/Contract.pdf' target='_blank'>
+            Click to download the Contract</a></h2>
 
             
 </div>
