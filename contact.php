@@ -28,12 +28,13 @@ session_start();
         <div class="container">
 
             <h1>Contact Brian Hand</h1>
-            <h2>Phone: 512 751-7280</h2><br>
+            <h2>Phone: 512 751-7280 </h2><br>
+            <h2>Email: brianhand1@hotmail.com </h2><br>
             <br><a href="mailto:brianhand1@hotmail.com?subject=Golf Cart Rental Information">
                        Click to Email Brian</a>
             <h1>Contact Ron Bouchard</h1>
             <h2>Phone: 503 949-4955</h2><br>
-
+            <h2>Email: ronniebouchard58@gmail.com </h2><br>
             <br><a href="mailto:ronniebouchard58@gmail.com?subject=Golf Cart Rental Information">
                        Click to Email Ron</a>
 </div>

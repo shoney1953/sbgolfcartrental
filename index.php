@@ -33,10 +33,10 @@ session_start();
             <!-- <h3>There are also a number of carts for sale. Check out the For Sale tab above</h3> -->
       
             <a href="mailto:brianhand1@hotmail.com?subject=Golf Cart Rental Information">
-                       Click to Email Brian</a> <br>
+                       Click to Email Brian at brianhand1@hotmail.com</a> <br>
 
             <br><a href="mailto:ronniebouchard58@gmail.com?subject=Golf Cart Rental Information">
-                       Click to Email Ron</a>    
+                       Click to Email Ron at ronniebouchard58@gmail.com </a>    
 </div>
 
 </div>
