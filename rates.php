@@ -36,7 +36,7 @@ session_start();
             <h1>Rates:</h1>
        
             <h3>$350 per Month</h3>
-            <h2><a href='img/Contract.pdf' target='_blank'>
+            <h2><a href='img/ContractSept2025.pdf' target='_blank'>
             Click to download the Contract</a></h2>
 
             
