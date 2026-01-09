@@ -40,7 +40,9 @@
       </div>
   
   </div>
-
+      <div class="cartCard">
+       <img  class="cartImage" src="img/Battery1.jpg" alt="Service example 1">
+      </div>
 </div>
 <?php
   require 'footer.php';

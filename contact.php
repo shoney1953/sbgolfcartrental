@@ -19,27 +19,40 @@ session_start();
     <div class="container">
         <ul>
         <li><a href="index.php">Home</a></li>
-        <li><a href="rates.php">Rates and Requirements</a></li>
+        <li><a href="rates.php">Rental Rates</a></li>
+
+        <li><a href="checklist.php">Rental Checklist</a></li>
+      <li><a href="conversions.php">Lithium Battery Conversions</a></li>
+      <li><a href="repairs.php">Golf Cart Repairs</a></li>
       
+     
         </ul>
     </div>
 </nav>
 
-        <div class="container">
-
-            <h1>Contact Brian Hand</h1>
-            <h2>Phone: 512 751-7280 </h2><br>
-            <h2>Email: brianhand1@hotmail.com </h2><br>
-            <br><a href="mailto:brianhand1@hotmail.com?subject=Golf Cart Rental Information">
+        <div class="content">
+         <div class="form-grid2">
+         <div>
+           <h1><legend>Contact Brian Hand</legend></h1>
+           <h2>Phone: 512 751-7280 </h2>
+            <h2>Email: brianhand1@hotmail.com </h2>
+            <h2><a href="mailto:brianhand1@hotmail.com?subject=Golf Cart Rental Information">
                        Click to Email Brian</a>
-            <h1>Contact Ron Bouchard</h1>
-            <h2>Phone: 503 949-4955</h2><br>
-            <h2>Email: ronniebouchard58@gmail.com </h2><br>
-            <br><a href="mailto:ronniebouchard58@gmail.com?subject=Golf Cart Rental Information">
+         </div>
+         <div>
+            <h1><legend>Contact Ron Bouchard</legend></h1>
+            <h2>Phone: 503 949-4955</h2>
+            <h2>Email: ronniebouchard58@gmail.com </h2>
+            <h2><a href="mailto:ronniebouchard58@gmail.com?subject=Golf Cart Rental Information">
                        Click to Email Ron</a>
-</div>
+         </div>
 
-</div>
+         </div>
+        </div>
+
+ 
+</div>      
+
 <?php
   require 'footer.php';
 ?>

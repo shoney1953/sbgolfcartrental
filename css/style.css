@@ -7,6 +7,7 @@
   --table-thead-color: rgba(124, 132, 71, 0.5);
   --table-tr-odd: rgba(226, 220, 171, 0.5);
   --table-tr-even: rgba(169, 158, 84, 0.5);
+  --link-color3: rgba(35, 20, 240, 0.5);
   --lg: linear-gradient(
     180deg,
     rgba(226, 222, 223, 0.2),
@@ -30,14 +31,15 @@ body {
 .container-section {
   max-width: 100vw;
 
-  background-image: url("../img/background2.jpg");
+  /* background-image: url("../img/background2.jpg"); */
+  /* background-image: url("../img/DSC05234-2\ copy.jpg"); */
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
+  /* background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center; */
   color: #201616;
   display: flex;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   text-align: center;
   position: relative;
@@ -69,6 +71,34 @@ body {
   background-color: rgba(65, 50, 50, 0.5);
   border-radius: 5px;
   max-width: 100%;
+}
+legend {
+  align-items: center;
+  background-color: aquamarine;
+  text-align: center;
+  font-weight: bold;
+  padding: 4px 4px 4px 4px;
+  margin-bottom: 4px;
+}
+.content ol {
+  list-style-type: decimal;
+  display: list-item;
+  padding-left: 20px;
+}
+.content ol::marker {
+  display: none;
+}
+.content li {
+  display: list-item;
+  padding-bottom: 5px;
+}
+.content ul {
+  display: list-item;
+}
+.content .olindent {
+  list-style: circle;
+  display: list-item;
+  padding-left: 50px;
 }
 .nav .container ul {
   display: flex;
@@ -146,13 +176,14 @@ body {
   height: 90%;
   margin-right: 5%;
   margin-left: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   margin-top: 20px;
-  text-align: center;
+  padding-top: 70px;
+  text-align: top;
   overflow-x: auto;
   color: rgb(28, 1, 39);
-  align-items: center;
-  justify-content: center;
+  align-items: top;
+  justify-content: top;
   background-color: rgba(252, 237, 237, 0.2);
 }
 .content h1,
@@ -177,7 +208,7 @@ body {
 }
 .container h1 {
   font-size: 46px;
-  margin: 2% 0 20px;
+  /* margin: 40px 0 20px; */
   font-weight: bold;
 }
 .container h3 {
@@ -192,6 +223,12 @@ body {
   color: whitesmoke;
   font-size: 25px;
   margin: 2% 0 20px;
+}
+.ownerpic {
+  /* width: 30%;
+  height: 30%; */
+  /* width: 40%; */
+  height: 70%;
 }
 .footer-section {
   background-color: rgb(43, 32, 43);
@@ -279,7 +316,7 @@ h4 {
   max-width: 100%;
   /* background-color: blanchedalmond; */
   background-color: white;
-  padding: 2px 2px;
+  padding: 4px 4px;
   align-content: center;
   border: 2px solid rgba(33, 32, 32, 1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -448,6 +485,22 @@ button:active {
   margin-bottom: 5px;
   cursor: pointer;
 }
+
+.rotate-270 {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.rotate-180 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.rotate-90 {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 @media screen and (max-width: 1280px) {
   body {
     font-size: 90%;
@@ -463,6 +516,9 @@ button:active {
     margin-bottom: 10px;
     justify-content: left;
     padding: 4px;
+  }
+  .ownerpic {
+    height: 50%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -480,6 +536,16 @@ button:active {
     margin-bottom: 10px;
     justify-content: left;
     padding: 4px;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1em;
+  }
+  .content .olindent {
+    padding-left: 20px;
   }
 }
 @media screen and (max-width: 500px) {

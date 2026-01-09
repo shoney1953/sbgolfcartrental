@@ -19,25 +19,23 @@ session_start();
     <div class="container">
         <ul>
         <li><a href="index.php">Home</a></li>
-        <li><a href="rates.php">Rates and Requirements</a></li>
+        <li><a href="rates.php">Rental Rates</a></li>
+        <li><a href="checklist.php">Rental Checklist</a></li>
+        <li><a href="conversions.php">Lithium Battery Conversions</a></li>
+        <li><a href="repairs.php">Golf Cart Repairs</a></li>
         <!-- <li><a href="forsale.php">Golf Carts For Sale</a></li> -->
         <li><a href="contact.php">Contact</a></li>
         <!-- <li><a href="administration.php">Administration</a></li> -->
         </ul>
     </div>
 </nav>
-        <div class="container">
-
-            <h1>SaddleBrooke Golf Cart Rentals</h1>
-            <h3>Located in SaddleBrooke Arizona,<br> Brian Hand and Ron Bouchard have several golf carts available for rent.</h3><br>
-            <h3><a href="servicePage.php">Services include cart repair, and lithium battery replacements starting from $2200</a></h3>
-            <!-- <h3>There are also a number of carts for sale. Check out the For Sale tab above</h3> -->
+        <div class="content">
       
-            <a href="mailto:brianhand1@hotmail.com?subject=Golf Cart Rental Information">
-                       Click to Email Brian at brianhand1@hotmail.com</a> <br>
-
-            <br><a href="mailto:ronniebouchard58@gmail.com?subject=Golf Cart Rental Information">
-                       Click to Email Ron at ronniebouchard58@gmail.com </a>    
+            <h1>SaddleBrooke Golf Cart Rentals<br>
+        
+            Located in SaddleBrooke Arizona,<br> Owned and Operated by
+             Brian Hand and Ron Bouchard.</h1><br>
+            <img src="img/DSC05234-2 copy.jpg" class="ownerpic" alt="Owners">
 </div>
 
 </div>

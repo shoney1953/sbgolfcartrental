@@ -19,26 +19,33 @@ session_start();
     <div class="container">
         <ul>
         <li><a href="index.php">Home</a></li>
+       
+        <li><a href="checklist.php">Rental Checklist</a></li>
+        <li><a href="conversions.php">Lithium Battery Conversions</a></li>
+        <li><a href="repairs.php">Golf Cart Repairs</a></li>
         <li><a href="contact.php">Contact</a></li>
       
         </ul>
     </div>
 </nav>
 
-        <div class="container">
-
-            <h1>Rental Requirements:</h1>
       
-            <h3>Copy of a Valid Driver's License</h3>
-            <h3>Month lease minimum</h3>
-            <h3>$500 Refundable Damage Deposit</h3>
-            <br>
-            <h1>Rates:</h1>
-       
-            <h3>$350 per Month</h3>
-            <h2><a href='img/ContractSept2025.pdf' target='_blank'>
-            Click to download the Contract</a></h2>
+        <div class="content">
+            <h1>Rental Rates</h1>
+      
+            <h3>$350 per month +6.7% tax</h3>
+            <h3> if a delivery is being made to Saddlbrooke Ranch, there is a one-time $50 delivery fee which includes pickup.<h3>
+           
+            <h3>During peak times, rental minimum is one month, however during non-peak times shorter rental periods may be available</h3>
+            <legend>Non Peak Time Rental Rates</legend>
+            <ul>
+            <li>1 week  = $125 + 6.7% tax</li>
+            <li>2 weeks = $210 + 6.7% tax</li>
+            <li>3 weeks = $304.50 + 6.7% tax</li>
+            </ul>
+            
 
+  <h3><a href="contact.php">Contact Us</a></h3>
             
 </div>
 

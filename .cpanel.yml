@@ -4,13 +4,16 @@ deployment:
     - export DEPLOYPATH=/home/sbballro/public_html/sbgolfcartrentals.com
     - /bin/cp administration.php $DEPLOYPATH
     - /bin/cp archives.php $DEPLOYPATH
+    - /bin/cp checklist.php $DEPLOYPATH
     - /bin/cp contact.php $DEPLOYPATH
+    - /bin/cp conversions.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp forsale.php $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp processCartItems.php $DEPLOYPATH
     - /bin/cp processServiceItems.php $DEPLOYPATH
     - /bin/cp rates.php $DEPLOYPATH
+    - /bin/cp repairs.php $DEPLOYPATH
     - /bin/cp servicePage.php $DEPLOYPATH
     - /bin/cp -R actions $DEPLOYPATH
     - /bin/cp -R config $DEPLOYPATH
