@@ -228,7 +228,7 @@ legend {
   /* width: 30%;
   height: 30%; */
   /* width: 40%; */
-  height: 70%;
+  height: 6 0%;
 }
 .footer-section {
   background-color: rgb(43, 32, 43);
@@ -325,6 +325,10 @@ h4 {
 }
 .cartImage {
   width: 100%;
+}
+.batteryImage {
+  width: 60%;
+  object-fit: contain;
 }
 table {
   width: 90%;
@@ -519,6 +523,10 @@ button:active {
   }
   .ownerpic {
     height: 50%;
+  }
+  .batteryImage {
+    width: 50%;
+    object-fit: contain;
   }
 }
 @media screen and (max-width: 800px) {

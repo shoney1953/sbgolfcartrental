@@ -9,7 +9,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
     <title>SaddleBrooke Golf Cart Rentals - Repairs</title>
     <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
 </head>
@@ -42,7 +42,7 @@ session_start();
         <li>Replace windshields</li>
         <li>Lead acid battery water inspections replenishment</li>
         <li>Inspect and clean the battery compartment</li>
-        <li>Repaire or replacement of battery Cables</li>
+        <li>Repair or replacement of battery Cables</li>
       </ol>
             
          <h3><a href="contact.php">Contact Us</a></h3>
