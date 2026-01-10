@@ -36,7 +36,7 @@ session_start();
               <div>
                         <legend>Golf Cart 36/48 volt conversions start at $1500/$1700</legend>
         <ol class="olindent">
-          <li>100 ah lithium battery</li>
+          <li>105 ah lithium battery</li>
           <li>On board charger</li>
           <li>115 volt charging port</li>
           <li>% charge LCD indicator</li>
