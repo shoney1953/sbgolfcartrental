@@ -34,7 +34,7 @@ session_start();
             <h2>Lithium Battery Conversions</h2>
             <div class="form-grid3">
               <div>
-                        <legend>Golf Cart 36/48 volt conversions start at $1500/$1700</legend>
+          <legend>Golf Cart 36/48 volt conversions start at $1500/$1700</legend>
         <ol class="olindent">
           <li>105 ah lithium battery</li>
           <li>On board charger</li>
@@ -43,11 +43,11 @@ session_start();
           <li>No wiring or solenoid changes</li>
         </ol>
                 <img  class="batteryImage rotate-90" src="img/Battery2.jpg" alt="Service example 1"
-        title="Sample of a 48 volt lithium conversion on an older Club Car">
+        title="Example of a 48 volt lithium conversion on an older Club Car">
               </div>
 
   <div>
-                        <legend>Premium Golf Cart 36 and 48 volt conversions start at $2000</legend>
+        <legend>Premium Golf Cart 36 and 48 volt conversions start at $2000</legend>
         <ol class="olindent">
           <li>105 ah lithium battery</li>
           <li>On board charger</li>
@@ -56,11 +56,12 @@ session_start();
           <li>Upgrade Wiring to solenoid</li>
           <li>Upgrade the solenoid with a 200 amp continuous current</li>
         </ol>
- 
+              <img  class="batteryImage rotate-270" src="img/1000007782.jpg" alt="Service example 1"
+              title="Example of Premium conversion.">
               </div>
                <div>
-                        <legend>Super Premium Golf Cart 48 Volt conversions start at $3000<br>
-                      Battery and controller replacement as defined by the customer such as Allied, Eco, Bolt Energy, Vatrer, etc</legend>
+          <legend>Super Premium Golf Cart 48 Volt conversions start at $3000<br>
+          Battery and controller replacement as defined by the customer such as Allied, Eco, Bolt Energy, Vatrer, etc</legend>
                      
         <ol class="olindent">
           <li>105 or larger ah lithium battery</li>
@@ -72,12 +73,9 @@ session_start();
           <li>Upgrade the solenoid as needed based on the Controller</li>
         </ol>
                <img  class="batteryImage rotate-270" src="img/20260108_123542.jpg" alt="Service example 2"
-        title="Example of a Super Premium Upgrade"
-              </div>
+        title="Example of a Super Premium Upgrade">
+         
             </div>
-              <div class="form-grid3">
-              
-
             </div>
 
              <h3><a href="contact.php">Contact Us</a></h3>
