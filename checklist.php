@@ -33,7 +33,7 @@ session_start();
         <div class="content">
             <h1>Checklist for Cart Renters</h1>
       
-            <h3>The first step is to review the contrac and make sure you are comfortable with the requirements</h3>
+            <h3>The first step is to review the contract and make sure you are comfortable with the requirements</h3>
            
           <!-- /* <a href='img/ContractSept2025.pdf' target='_blank'> */ -->
             <!-- <em>Click to download the Contract</em></a> -->
