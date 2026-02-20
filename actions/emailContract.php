@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('../includes/sendEmail.php');
+require('../includes/SendEmail.php');
 require('../includes/siteemails.php');
 $tempContractInfo = $_SESSION['tempcontractinfo'];
 
