@@ -19,4 +19,5 @@ deployment:
     - /bin/cp -R config $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
     - /bin/cp -R models $DEPLOYPATH

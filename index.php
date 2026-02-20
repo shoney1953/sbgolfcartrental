@@ -1,5 +1,6 @@
 <?php 
 session_start();
+$_SESSION['homeurl'] = $_SERVER['REQUEST_URI']; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +21,7 @@ session_start();
         <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="rates.php">Rental Rates</a></li>
-        <li><a href="checklist.php">Rental Checklist</a></li>
+        <li><a href="checklist.php">Rental Checklist/Contract</a></li>
         <li><a href="conversions.php">Lithium Battery Conversions</a></li>
         <li><a href="repairs.php">Golf Cart Repairs</a></li>
         <!-- <li><a href="forsale.php">Golf Carts For Sale</a></li> -->

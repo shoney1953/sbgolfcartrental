@@ -80,6 +80,22 @@ legend {
   padding: 4px 4px 4px 4px;
   margin-bottom: 4px;
 }
+.contract-iframe {
+  width: 600px;
+  height: 600px;
+}
+input[type="radio"] {
+  margin: 5px;
+}
+input[type="radio"] label {
+  margin: 5px;
+}
+input[type="text"] {
+  width: 90%;
+}
+input[type="email"] {
+  width: 90%;
+}
 .content ol {
   list-style-type: decimal;
   display: list-item;
@@ -263,6 +279,28 @@ section {
   justify-content: left;
   font-size: 85%;
 }
+.input-form-grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  /* grid-auto-rows: minmax(100px, auto); */
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  justify-content: left;
+  font-size: 85%;
+}
+.input-form-grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  /* grid-auto-rows: minmax(100px, auto); */
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  justify-content: left;
+  font-size: 85%;
+}
 .form-grid3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -327,6 +365,7 @@ h4 {
   width: 60%;
   object-fit: contain;
 }
+
 table {
   width: 90%;
   border: 1px solid var(--black3);
@@ -430,6 +469,12 @@ td {
   text-align: left;
   font-size: small;
 }
+.input-form-item-title {
+  color: var(--formdivision-color3);
+  text-align: left;
+  font-size: small;
+  margin-bottom: 2px;
+}
 .form-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -518,6 +563,17 @@ button:active {
     justify-content: left;
     padding: 4px;
   }
+  .input-form-grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    /* grid-auto-rows: minmax(100px, auto); */
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    justify-content: left;
+    font-size: 85%;
+  }
   .ownerpic {
     height: 50%;
   }
@@ -541,6 +597,18 @@ button:active {
     margin-bottom: 10px;
     justify-content: left;
     padding: 4px;
+  }
+
+  .input-form-grid3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+    /* grid-auto-rows: minmax(100px, auto); */
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    justify-content: left;
+    font-size: 85%;
   }
   .nav a {
     text-decoration: none;
@@ -568,5 +636,20 @@ button:active {
     margin-bottom: 10px;
     justify-content: left;
     padding: 4px;
+  }
+  .contract-iframe {
+    width: 400px;
+    height: 400px;
+  }
+  .input-form-grid3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2px;
+    /* grid-auto-rows: minmax(100px, auto); */
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    justify-content: left;
+    font-size: 85%;
   }
 }
