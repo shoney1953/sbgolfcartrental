@@ -1,7 +1,6 @@
 <?php
 session_start();
-require_once '../includes/sendEmail.php';
-require_once '../includes/siteemails.php';
+
 require('../includes/fpdf.php');
 // require_once '../config/Database.php';
 $tempContractInfo = $_SESSION['tempcontractinfo'];

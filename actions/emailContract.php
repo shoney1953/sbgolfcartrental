@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once '../includes/sendEmail.php';
-require_once '../includes/siteemails.php';
+require('../includes/sendEmail.php');
+require('../includes/siteemails.php');
 $tempContractInfo = $_SESSION['tempcontractinfo'];
 
 if (isset($_POST['submitEmailContract'])) {
