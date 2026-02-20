@@ -2,10 +2,10 @@
 session_start();
 
 // require_once '../config/Database.php';
-require_once '../models/ContractInfo.php';
-$database = new Database();
-$db = $database->connect();
-$contractInfo = new ContractInfo($db);
+// require_once '../models/ContractInfo.php';
+// $database = new Database();
+// $db = $database->connect();
+// $contractInfo = new ContractInfo($db);
 $_SESSION['tempcontractinfo'] = [];
 $tempContractInfo = [];
 
