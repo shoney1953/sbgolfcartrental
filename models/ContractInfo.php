@@ -92,6 +92,7 @@ class ContractInfo {
     // Create User
     public function create() {
           // Create query
+    
           $query = 'INSERT INTO ' . $this->table . 
           ' SET firstname = :firstname, 
                 lastname = :lastname, 
@@ -122,6 +123,7 @@ class ContractInfo {
           $stmt->bindParam(':email', $this->email);
           $stmt->bindParam(':rentaladdr', $this->rentaladdr);
           $stmt->bindParam(':rentstart', $this->rentstart);
+          $stmt->bindParam(':saddlebrookearea', $this->saddlebrookearea);
           $stmt->bindParam(':rentend', $this->rentend);
           $stmt->bindParam(':dlnum', $this->dlnum);
           $stmt->bindParam(':dlstate', $this->dlstate);

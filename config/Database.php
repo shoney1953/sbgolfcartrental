@@ -27,16 +27,21 @@
           $this->password = "$2021Idiot";
           $this->db_name = "sbballro_tAdnRpvOXZgHQi";
 
-        } else {
-          /*Get Heroku ClearDB connection information */
-          // $db = parse_url(getenv("DATABASE_URL"));
-          $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-      
-          $this->host = $url["host"];
-          $this->username = $url["user"];
-          $this->password = $url["pass"];
-          $this->db_name = substr($url["path"], 1);
-        }
+        } 
+    
+  }
+   if ($_SERVER['SERVER_NAME'] !== 'localhost') {
+     
+  
+        if (($_SERVER['SERVER_NAME'] === "www.sbgolfcartrentals.com")
+            || ($_SERVER['SERVER_NAME'] === "sbgolfcartrentals.com") ) {
+         
+          $this->host = "localhost";
+          $this->username = "sbballro_appuser";
+          $this->password = "$2021Idiot";
+          $this->db_name = "sbballro_tAdnRpvOXZgHQi";
+
+        } 
     } 
   }
   
