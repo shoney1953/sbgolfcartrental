@@ -29,20 +29,25 @@ session_start();
     </div>
 </nav>
 
-      
+   
         <div class="content">
-            <h1>Rental Rates</h1>
-      
-            <h3>$350 per month +6.7% tax</h3>
-            <h3> if a delivery is being made to Saddlbrooke Ranch, there is a one-time $50 delivery fee which includes pickup.<h3>
-           
-            <h3>During peak times, rental minimum is one month, however during non-peak times shorter rental periods may be available</h3>
-            <legend>Non Peak Time Rental Rates</legend>
+            <h1>Golf Cart 2026/2027 Rental Rates</h1>
+            <h3>Yearly Rate $1,680 + tax (6.7%)</h3>
+            <legend>In Season (November through April)</legend>
             <ul>
-            <li>1 week  = $125 + 6.7% tax</li>
-            <li>2 weeks = $210 + 6.7% tax</li>
-            <li>3 weeks = $304.50 + 6.7% tax</li>
+            <li>$370 per month + tax (6.7%)</li>
+            <li>In Season within SaddleBrooke HOA 1 & HOA2, delivery and pickup are included</li>
+            <li>Saddlbrooke Ranch delivery and pickup has one-time delivery and pickup fee of $75.<h3>
+           
+            <li>In Season rental minimum is one month, however during out of season times, shorter rental periods may be available</li>
+             </ul> 
+            <legend>Out of Season (May through September)</legend>
+            <ul>
+            <li>Weekly Rate per day $18.00 + tax (6.7%)</li>
+            <li>Less than a week $23.00 per day + tax (6.7%)</li>
+            <li>Out of Season weekly and daily cart rentals within SaddleBrooke HOA1 & HOA2 require customer pickup and return within Saddlebrooke.</li>
             </ul>
+  
             
 
   <h3><a href="contact.php">Contact Us</a></h3>

@@ -75,7 +75,7 @@ $dayOfYear = date('z') + 1;
     $pdf->SetFont('Arial', '', 10);
     $pdf->Cell(50,5,"    * RENTAL START DATE: ".$tempContractInfo['rentstart']."  /   RENTAL RETURN DATE: ".$tempContractInfo['rentend'],0,1,"L");    
 
-    $pdf->Cell(100,5,"    * Monthly Rental Rate: $373 (including tax)  /   Daily Rental Rate: $14.50 (including tax)  ",0,1,"L"); 
+    $pdf->Cell(100,5,"    * Monthly Rental Rate: $370.00 + tax. (6.7%)  ",0,1,"L"); 
  
     $pdf->Cell(100,5,"    * Deposit $100 (yes) or (no) ",0,1,"L");   
     $pdf->Cell(100,5,"    * Security Deposit $500 (refundable upon safe return) ",0,1,"L");   
