@@ -10,6 +10,9 @@ if (isset($_GET['redoinfo'])) {
    $_SESSION['checklist'] = $_SERVER['REQUEST_URI']; 
    $tempContractInfo = [];
 }
+$today = date("m-d-Y");
+
+ $tomorrow = date("m-d-Y", strtotime('tomorrow'));
 
 ?>
 <!DOCTYPE html>
@@ -81,7 +84,7 @@ if (isset($_GET['redoinfo'])) {
               Your reservation will be confirmed upon receipt of your check and information.</p>
           
             
-            <form method="POST" action="actions/createContract.php" >
+            <form id="contractForm" method="POST" action="actions/createContract.php" >
               <div class="input-form-grid3">
                <div class="form-item">
                 <h4 class="input-form-item-title">First Name</h4>
@@ -197,20 +200,20 @@ if (isset($_GET['redoinfo'])) {
                 echo '<div class="form-item">';
                 echo '<h4 class="input-form-item-title">Rental Start Date</h4>';
                 if ($redoInfo != 'Y') {
-                          echo "<input type='date' name='rentstart' required > ";
+                          echo "<input type='date' name='rentstart' id='rentstart' required min='.$today.' > ";
                 } else {
-                       echo "<input type='date' name='rentstart' value=".$tempContractInfo['rentstart']."> ";
+                       echo "<input type='date' name='rentstart' id='rentstart' value=".$tempContractInfo['rentstart']."> ";
                 }
-        
+                echo "<span id='rentstartHelp'></span>";
                 echo '</div>';
                 echo '<div class="form-item">';
                 echo '<h4 class="input-form-item-title">Rental End Date</h4>';
                  if ($redoInfo != 'Y') {
-                     echo "<input type='date'  name='rentend' required >";
+                     echo "<input type='date'  name='rentend' id='rentend' required min='.$tomorrow.'>";
                  } else {
-                      echo "<input type='date'  name='rentend' value=".$tempContractInfo['rentend']." >";
+                      echo "<input type='date'  name='rentend' id='rentend'  value=".$tempContractInfo['rentend']." >";
                  }
-             
+              echo "<span id='rentendHelp'></span>";
                 echo '</div>';
                  echo '<div class="form-item">';
                  echo '<h4 class="input-form-item-title">Have you mailed the $100 check to confirm rental?</h4>';
@@ -235,16 +238,7 @@ if (isset($_GET['redoinfo'])) {
 
             </fieldset>
             </div>
-            <!-- <ol> -->
 
-              <!-- <li value="1">Your full name</li>
-              <li>Your home address</li>
-              <li>Your rental or home HOA - ie HOA 1, HOA 2, or SaddleBrooke Ranch</li>
-              <li>Your cell number</li>
-              <li>Your email address</li>
-              <li>Dates you will need the cart (please be as specific as you can)</li> -->
-              
-            <!-- </ol> -->
        
   <h5><a href="contact.php">Contact Us</a></h5>
             
@@ -255,4 +249,61 @@ if (isset($_GET['redoinfo'])) {
   require 'footer.php';
 ?>
 </body>
+<script>
+  document.getElementById("rentstart").addEventListener("input", e => {
+  const rentstart = e.target.value; // Value of the password field
+  let message1 = 'valid';
+  let message1Color = 'green';
+  let compareDate = '';
+
+ 
+  const now = new Date();
+  
+  const year = now.getFullYear();
+
+  const day = now.getDate();
+
+ let month = now.getMonth();
+month = month + 1;
+
+ if (month < 10) {
+   compareDate = year + '-' + '0' + month + '-' + day ;
+ } else {
+    compareDate = year + '-' + month + '-' + day ;
+ }
+
+
+  if (rentstart < compareDate) {
+   
+    message1 = 'rental start date too early';
+    message1Color = 'red';
+  }
+    const rentstartHelpElement = document.getElementById("rentstartHelp");
+  rentstartHelpElement.textContent = message1; // helper text
+  rentstartHelpElement.style.color = message1Color; // helper text color
+})
+
+  document.getElementById("rentend").addEventListener("input", e => {
+     const rentend = e.target.value; // Value of the password field
+
+  const rentstart = document.forms["contractForm"]["rentstart"].value;
+
+  let message2 = 'valid';
+  let message2Color = 'green';
+
+  if (rentstart === "") {
+
+     message2 = 'rental start date must be filled in first ';
+    message2Color = 'red';
+  } else if (rentend <= rentstart) {
+   
+    message2 = 'rental end date must be greater than rent start date ';
+    message2Color = 'red';
+  }
+    const rentendHelpElement = document.getElementById("rentendHelp");
+
+  rentendHelpElement.textContent = message2; // helper text
+  rentendHelpElement.style.color = message2Color; // helper text color
+})
+  </script>
 </html>

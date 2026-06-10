@@ -38,7 +38,6 @@ class PDF extends FPDF
         
     }
 
-
 }
 $day = date("d");
 $year = date("Y");
