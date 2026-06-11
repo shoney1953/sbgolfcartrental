@@ -2,9 +2,33 @@
 session_start();
 require('../includes/SendEmail.php');
 require('../includes/siteemails.php');
+require_once '../config/Database.php';
+require_once '../models/ContractInfo.php';
 $tempContractInfo = $_SESSION['tempcontractinfo'];
 
 if (isset($_POST['submitEmailContract'])) {
+
+
+$database = new Database();
+$db = $database->connect();
+$contractInfo = new ContractInfo($db);
+$contractInfo->firstname = $tempContractInfo['firstname'];
+$contractInfo->lastname = $tempContractInfo['lastname'];
+$contractInfo->email = $tempContractInfo['email'];
+$contractInfo->cellphone = $tempContractInfo['cellphone'];
+$contractInfo->saddlebrookearea = $tempContractInfo['saddlebrookearea'];
+$contractInfo->rentaladdr = $tempContractInfo['rentaladdr'];
+$contractInfo->dlnum = $tempContractInfo['dlnum'];
+$contractInfo->dlstate = $tempContractInfo['dlstate'];
+$contractInfo->dlexp = $tempContractInfo['dlexp'];
+$contractInfo->rentstart = $tempContractInfo['rentstart'];
+$contractInfo->rentend = $tempContractInfo['rentend'];
+$contractInfo->cartnum = 0;
+$contractInfo->cartyear = '1999';
+$contractInfo->cartcolor = '';
+$contractInfo->create();
+
+
 $fromCC = $webmaster;
 $replyEmail = $webmaster;
 $regEmail1 = $tempContractInfo['email'];

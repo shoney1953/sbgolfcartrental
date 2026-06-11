@@ -17,6 +17,8 @@ if ( isset($_POST['SubmitContractInfo'])) {
   $tempContractInfo['rentstart'] = $_POST['rentstart'];
   $tempContractInfo['rentend'] = $_POST['rentend'];
   $tempContractInfo['rentaladdr'] = $_POST['rentaladdr'];
+  var_dump($_POST['rentaladdr']);
+  var_dump($tempContractInfo['rentaladdr']);
   $tempContractInfo['dlnum'] = $_POST['dlnum'];
   $tempContractInfo['dlstate'] = $_POST['dlstate'];
   $tempContractInfo['dlexp'] = $_POST['dlexp'];

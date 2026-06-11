@@ -2,9 +2,11 @@
 session_start();
 $redoInfo = '';
 if (isset($_GET['redoinfo'])) {
-   $_SESSION['checklist'] = $_SERVER['REQUEST_URI']; 
+  var_dump('redoinfo');
+  //  $_SESSION['checklist'] = $_SERVER['REQUEST_URI']; 
    unset($_GET['redoinfo']);
    $tempContractInfo =  $_SESSION['tempcontractinfo'];
+   var_dump($_SESSION['tempcontractinfo']);
    $redoInfo = 'Y';
 } else {
    $_SESSION['checklist'] = $_SERVER['REQUEST_URI']; 
@@ -129,7 +131,7 @@ $today = date("m-d-Y");
                 if ($redoInfo != 'Y') {
                     echo "<input type='text' name='dlnum' required placeholder='Your Driver&apos;s License Number'>";
                  } else {
-                     echo "<input type='text' name='dlnum' required value=".$tempContractInfo['dlnum'].">";
+                     echo '<input type="text" name="dlnum" required value="'.$tempContractInfo['dlnum'].'">';
                  }
                  echo '</div>';
            
@@ -156,7 +158,8 @@ $today = date("m-d-Y");
                 if ($redoInfo != 'Y') {
                       echo "<input type='text' name='rentaladdr' required placeholder='Where the rental will be delivered'>";
                   } else {
-                      echo "<input type='text' name='rentaladdr' required value=".$tempContractInfo['rentaladdr'].">";
+                      echo '<input type="text" name="rentaladdr" required value="'.$tempContractInfo['rentaladdr'].'">';
+                   
                   }
         
                 echo '</div>';
